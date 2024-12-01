@@ -9,7 +9,7 @@ body {
 
 /* Header */
 header {
-  background-color: #0A1128; /* Obsidian Blue */
+  background-color: #0F192B; /* Obsidian Blue */
   color: #ffffff; /* White text */
   padding: 20px;
   text-align: center;
@@ -27,7 +27,7 @@ header p {
 
 /* Navigation Bar */
 nav {
-  background-color: #001F54; /* Darker Blue */
+  background-color: #1969A5; /* Bright Blue */
   padding: 10px 0;
 }
 
@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #87CEEB; /* Sky Blue on hover */
+  color: #EFB747; /* Golden Amber on hover */
 }
 
 /* Main Content */
@@ -60,8 +60,8 @@ main {
 }
 
 main h2 {
-  color: #0A1128; /* Obsidian Blue */
-  border-bottom: 2px solid #87CEEB; /* Sky Blue underline */
+  color: #0F192B; /* Obsidian Blue */
+  border-bottom: 2px solid #EFB747; /* Golden Amber underline */
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
@@ -81,18 +81,18 @@ main ul li {
 
 /* Links */
 a {
-  color: #001F54; /* Dark Blue */
+  color: #1969A5; /* Bright Blue */
   text-decoration: underline;
 }
 
 a:hover {
-  color: #0A1128; /* Obsidian Blue */
+  color: #0F192B; /* Obsidian Blue */
   text-decoration: none;
 }
 
 /* Footer */
 footer {
-  background-color: #0A1128; /* Obsidian Blue */
+  background-color: #0F192B; /* Obsidian Blue */
   color: #ffffff; /* White text */
   text-align: center;
   padding: 10px 0;
@@ -104,9 +104,9 @@ footer p {
   margin: 5px 0;
 }
 
-/* Buttons (Optional) */
+/* Buttons */
 button {
-  background-color: #0A1128; /* Obsidian Blue */
+  background-color: #1969A5; /* Bright Blue */
   color: #ffffff; /* White text */
   border: none;
   border-radius: 5px;
@@ -117,16 +117,16 @@ button {
 }
 
 button:hover {
-  background-color: #001F54; /* Darker Blue */
+  background-color: #0F192B; /* Obsidian Blue */
 }
 
-/* Highlight Code Blocks (Optional) */
+/* Highlight Code Blocks */
 pre, code {
   background-color: #f4f4f4; /* Light gray */
   padding: 10px;
   border-radius: 5px;
   font-family: 'Courier New', Courier, monospace;
-  color: #0A1128; /* Obsidian Blue */
+  color: #1969A5; /* Bright Blue */
 }
 
 /* Responsive Design */
