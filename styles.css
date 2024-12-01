@@ -1,0 +1,150 @@
+/* General Styling */
+body {
+  font-family: 'Optima', 'Segoe UI', Arial, sans-serif;
+  background-color: #f9f9f9; /* Light gray neutral background */
+  color: #333; /* Dark gray for text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #0A1128; /* Obsidian Blue */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #001F54; /* Darker Blue */
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff; /* White text */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #87CEEB; /* Sky Blue on hover */
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+main h2 {
+  color: #0A1128; /* Obsidian Blue */
+  border-bottom: 2px solid #87CEEB; /* Sky Blue underline */
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+main p, main ul {
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+main ul {
+  padding-left: 20px;
+}
+
+main ul li {
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: #001F54; /* Dark Blue */
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0A1128; /* Obsidian Blue */
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background-color: #0A1128; /* Obsidian Blue */
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+/* Buttons (Optional) */
+button {
+  background-color: #0A1128; /* Obsidian Blue */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #001F54; /* Darker Blue */
+}
+
+/* Highlight Code Blocks (Optional) */
+pre, code {
+  background-color: #f4f4f4; /* Light gray */
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0A1128; /* Obsidian Blue */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  main h2 {
+    font-size: 1.5em;
+  }
+}
